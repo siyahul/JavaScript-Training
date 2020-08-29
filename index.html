@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container1">
+        <h2>1.Age in days</h2>
+        <div class="flexbox__container__1">
+            <div>
+                <button class="btn btn-primary" onClick="ageInDays()">ClickMe</button>
+            </div>
+            <div>
+                <button class="btn btn-danger" onClick="reset()">Reset</button>
+            </div>
+        </div>
+        <div class="flexbox__container__1">
+            <div id="flexbox__box__result">
+
+            </div>
+        </div>
+    </div>
+    <div class="container2">
+        <h2>2.Cat Generator</h2>
+        <button class="btn btn-success" onClick="generateCat()">Genarate</button>
+        <div class="flexbox__container__2">
+            <div id="cat-result" class="cat__result"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
