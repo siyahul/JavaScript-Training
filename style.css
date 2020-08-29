@@ -1,5 +1,10 @@
-.container1, .container2{
+.body{
+    background-color:gray;
+}
+.container1, .container2,.container3{
     border: 5px solid black;
+    background-color: rgb(90, 163, 62);
+    padding:10px;
     margin:0 auto;
     width: 75%;
     text-align: center;
@@ -7,8 +12,9 @@
 }
 .container2{
     border  : 5px solid red !important;
+    background-color: rgb(6, 128, 158)
 }
-.flexbox__container__1,.flexbox__container__1{
+.flexbox__container__1,.flexbox__container__1,.flex-box-rps{
     display: flex;
     border: 1px black;
     padding:10px;
@@ -21,11 +27,27 @@
     padding:10px;;
     align-items: center;
 }
+
 .cat__result{
     padding:10px;
     display:flex;
     flex-wrap: wrap;
-    border:1px solid blue;
+    border:3px solid black;
     margin :0 auto;
+    flex-direction: row;
     justify-content:space-around;
+}
+.cat__result img {
+    box-shadow:0 10px 50px rgba(0,0,0,.7);
+    margin:10px;
+    length :250px;
+    width:150px;
+}
+.container3{
+    color: gray;
+    background-color:rgb(16, 16, 22);
+    border: 5px solid blue;
+}
+.flex-box-rps img:hover{
+    box-shadow:0 10px 50px rgba(37,50,233,1);
 }
